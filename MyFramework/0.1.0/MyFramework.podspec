@@ -17,6 +17,6 @@ Pod::Spec.new do |s|
     s.source_files = "MyFramework.xcframework/*/MyFramework.framework/Headers/*.{h,m,swift}"
     s.vendored_frameworks = "MyFramework.xcframework"
     s.platform = :ios, "10.0"
-    s.dependency "FirebaseFirestore"
+    # s.dependency "FirebaseFirestore"
     s.static_framework = true
 end
