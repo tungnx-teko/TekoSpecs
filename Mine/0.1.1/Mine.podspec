@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
     s.source       = { :git => "https://github.com/tungnx-teko/MineDistribution.git", :tag => "#{s.version}" }
     s.public_header_files = "Mine.framework/Headers/*.h"
     s.source_files = "Mine.framework/Headers/*.h"
-    s.vendored_frameworks = "Mine.framework"
+    s.vendored_frameworks = "Mine.framework", 'FirebaseFirestore.framework', 'FirebaseCore.framework'
     s.platform = :ios, "10.0"
     s.dependency "FirebaseFirestore"
 end
