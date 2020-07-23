@@ -17,5 +17,5 @@ Pod::Spec.new do |s|
     s.source_files = "MinervaCore.framework/Headers/*.{h, m, swift}"
     s.vendored_frameworks = "MinervaCore.framework"
     s.platform = :ios, "10.0"
-    s.dependency "FirebaseFirestore"
+    # s.dependency "FirebaseFirestore"
 end
